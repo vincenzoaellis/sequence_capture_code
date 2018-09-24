@@ -10,7 +10,7 @@ module load bowtie2/2.3.3.1
 module load samtools/1.6
 module load BEDTools/2.27.1
 
-## map with bowtie2
+## strict map with bowtie2
 bowtie2 -x /proj/snic2017-7-320/analysis/sgs1_ref/sgs1db/sgs1db \
     -U /proj/snic2017-7-320/analysis/sgs1_probes/sgs1_probes.fasta \
     --score-min 'C,0,-1' \
