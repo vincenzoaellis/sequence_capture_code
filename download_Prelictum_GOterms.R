@@ -3,7 +3,6 @@
 #### 25 September 2018
 
 prel_go <- function(){
-  require(data.table)
   gaf.colnames <- c("DB", "DB Object ID", "DB Object Symbol", "Qualifier", "GO_ID",
                     "DB_Reference", "Evidence_Code", "With_or_From", "Aspect", "DB_Object_Name",
                     "DB_Object_Synonym", "DB_Object_Type", "Taxon", "Date", "Assigned_By",
